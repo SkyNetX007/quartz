@@ -17,7 +17,7 @@
     "format": "npx prettier . --write",
     "test": "tsx ./quartz/util/path.test.ts",
     "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
-    "vercel-install": "./vercel-submodule-workaround.sh && yarn --ignore-scripts --production=false"
+    "vercel-install": "./vercel-submodule-workaround.sh"
   },
   "engines": {
     "node": ">=18.14"
